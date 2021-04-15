@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    this is an incrementation",
+    "elements": [
+      {
+        "description": "",
+        "id": "incrementation-feature;incrementation",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "incrementation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "a variable set to 1",
+            "match": {
+              "location": "features\\support\\steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I increment the variable by 1",
+            "match": {
+              "location": "features\\support\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the variable souble be 2",
+            "match": {
+              "location": "features\\support\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "incrementation-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Incrementation feature",
+    "tags": [],
+    "uri": "features\\increment.feature"
+  }
+]
