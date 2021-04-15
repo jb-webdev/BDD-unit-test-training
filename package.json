@@ -1,0 +1,8 @@
+{
+  "name": "BDD-unit-test-training",
+  "version": "1.0.0",
+  "description": "test fonctionnel avec cucumber",
+  "main": "index.js",
+  "author": "jbWebdev",
+  "license": "MIT"
+}
